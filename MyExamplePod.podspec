@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyExamplePod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyExamplePod.'
+  s.summary          = 'This is an example pod for testing the cocoapods defaults'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is an example pod for testing the cocoapods defaults. This is an example pod for testing the cocoapods defaults. This is an example pod for testing the cocoapods defaults. This is an example pod for testing the cocoapods defaults.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/MyExamplePod'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/sealz/example-pod'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Clayton LZ' => 'clayton@hauz.io' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/MyExamplePod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/sealz/example-pod.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'MyExamplePod/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MyExamplePod' => ['MyExamplePod/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
