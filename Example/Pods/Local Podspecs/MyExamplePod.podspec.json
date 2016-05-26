@@ -1,0 +1,22 @@
+{
+  "name": "MyExamplePod",
+  "version": "0.1.0",
+  "summary": "A short description of MyExamplePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MyExamplePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Clayton LZ": "clayton@hauz.io"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MyExamplePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyExamplePod/Classes/**/*"
+}
